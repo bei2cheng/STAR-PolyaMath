@@ -13,9 +13,9 @@ class OrchestratorConfig:
     """Immutable configuration for the orchestrator system."""
     
     # ========== Model Configuration ==========
-    REASONER_MODEL: str = "gpt-5.5"
-    VERIFIER_MODEL: str = "gpt-5.5"
-    META_STRATEGIST_MODEL: str = "gpt-5.5"
+    # REASONER_MODEL: str = "gpt-5.5"
+    # VERIFIER_MODEL: str = "gpt-5.5"
+    # META_STRATEGIST_MODEL: str = "gpt-5.5"
     REASONER_MODEL: str = "claude-sonnet-4.6"
     VERIFIER_MODEL: str = "claude-sonnet-4.6"
     META_STRATEGIST_MODEL: str = "claude-sonnet-4.6"
