@@ -12,7 +12,7 @@ type = "openai"
 #base_url = "https://www.packyapi.com/v1"
 #api_key = "sk-AvZNPewwVOsKhtabX1gESIdiaSbgOq43pjAWU16A9aBIsWuE"
 base_url = "https://yujianwudi.top/v1"
-api_key = "sk-XLQvM9i4KcrroZFxuCRhelDMAWlkYlIZuMy7uLijKU10BmVa"
+api_key = ""
 api_version = ""
 
 # Azure deployment name mapping
