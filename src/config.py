@@ -13,9 +13,12 @@ class OrchestratorConfig:
     """Immutable configuration for the orchestrator system."""
     
     # ========== Model Configuration ==========
-    REASONER_MODEL: str = "gpt-5.5"
-    VERIFIER_MODEL: str = "gpt-5.5"
-    META_STRATEGIST_MODEL: str = "gpt-5.5"
+    # REASONER_MODEL: str = "gpt-5.5"
+    # VERIFIER_MODEL: str = "gpt-5.5"
+    # META_STRATEGIST_MODEL: str = "gpt-5.5"
+    REASONER_MODEL: str = "claude-sonnet-5"
+    VERIFIER_MODEL: str = "claude-sonnet-5"
+    META_STRATEGIST_MODEL: str = "claude-sonnet-5"
     
     # ========== Reasoning Effort ==========
     REASONER_EFFORT: str = "xhigh"
@@ -68,6 +71,7 @@ class OrchestratorConfig:
     
     # ========== Allowed Models (whitelist) ==========
     ALLOWED_MODELS: FrozenSet[str] = frozenset({
+        "claude-sonnet-5",
         "claude-sonnet-4.6",
         "claude-sonnet-4.5",
         "claude-opus-4.7",
