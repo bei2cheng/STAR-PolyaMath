@@ -1,0 +1,12 @@
+# BYOK Provider Configuration
+# config.toml is gitignored and will NOT be committed.
+
+[provider]
+type = "openai"                          # OpenAI-compatible relay
+base_url = "https://yujianwudi.top/v1"   # 中转站 endpoint
+api_key = ""                             # TODO: 填入你的中转站 API key
+
+# Key = model ID used in config.py (REASONER_MODEL / VERIFIER_MODEL / META_STRATEGIST_MODEL)
+# Value = wire model name recognized by the relay
+[provider.wire_models]
+"claude-sonnet-5" = "claude-sonnet-5"

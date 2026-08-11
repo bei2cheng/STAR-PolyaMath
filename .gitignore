@@ -27,7 +27,8 @@ Thumbs.db
 
 # Secrets / BYOK config (never commit)
 config.toml
-config_gpt.toml
+config_*.toml
+
 
 scratch/
 docs/
